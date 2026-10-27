@@ -114,11 +114,10 @@ export function HomeDashboard({
         </div>
         <p className="text-sm font-semibold uppercase tracking-[0.25em] text-xcolor">Three in a row wins</p>
         <h1 className="mt-3 max-w-xl text-4xl font-black leading-tight sm:text-5xl">
-          Challenge a friend or face the <span className="text-ocolor">unbeatable</span> CPU.
+          Challenge a friend or face the <span className="text-ocolor">Computer.</span>
         </h1>
         <p className="mt-4 max-w-lg text-slate-400">
-          Every round counts toward wins, losses and draws. Press Stop whenever you like and the session is saved
-          here, with a move-by-move replay.
+          Track your wins, losses, and draws.
         </p>
         <div className="mt-8 flex flex-wrap items-center gap-6">
           <button
@@ -164,7 +163,7 @@ export function HomeDashboard({
         {/* History */}
         <section>
           <div className="mb-4 flex flex-wrap items-center justify-between gap-3">
-            <h2 className="text-xl font-black">Previous games</h2>
+            <h2 className="text-xl font-black">Game History</h2>
             {all.length > 0 && (
               <input
                 value={query}
@@ -221,7 +220,7 @@ export function HomeDashboard({
 
         {/* Leaderboard */}
         <aside>
-          <h2 className="mb-4 text-xl font-black">Standings</h2>
+          <h2 className="mb-4 text-xl font-black">Leaderboard</h2>
           <div className="rounded-2xl border border-line bg-panel/80 p-4">
             {leaders.length === 0 ? (
               <p className="py-6 text-center text-sm text-slate-500">Play a session to get on the board.</p>

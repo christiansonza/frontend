@@ -3,7 +3,7 @@ import type { ReactNode } from "react";
 import "./globals.css";
 
 export const metadata: Metadata = {
-  title: "Tic·Tac·Toe Arena",
+  title: "Tic·Tac·Toe",
   description: "Tic-Tac-Toe with session history, live W/L/D stats, a CPU opponent and replays.",
 };
 

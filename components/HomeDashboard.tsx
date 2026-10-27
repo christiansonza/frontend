@@ -221,7 +221,7 @@ export function HomeDashboard({
 
         {/* Leaderboard */}
         <aside>
-          <h2 className="mb-4 text-xl font-black">Hall of fame</h2>
+          <h2 className="mb-4 text-xl font-black">Standings</h2>
           <div className="rounded-2xl border border-line bg-panel/80 p-4">
             {leaders.length === 0 ? (
               <p className="py-6 text-center text-sm text-slate-500">Play a session to get on the board.</p>
